@@ -1,0 +1,40 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mypod_client",
+            "cwd": "mypod_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mypod_flutter",
+            "cwd": "mypod_flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mypod_flutter (profile mode)",
+            "cwd": "mypod_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mypod_flutter (release mode)",
+            "cwd": "mypod_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "mypod_server",
+            "cwd": "mypod_server",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
